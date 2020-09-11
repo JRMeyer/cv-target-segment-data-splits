@@ -1,6 +1,8 @@
 # Better Data Splits for Target Segments
 
-The original release of `train.tsv`, `dev.tsv`, and `test.tsv` data splits for Common Voice's Target Segments corpus [[1](https://commonvoice.mozilla.org/en/datasets)] had a bug, and they're not very useful as-is. Thankfully, it's easy to generate better data splits using the `CorporaCreator` tool [[2](https://github.com/mozilla/CorporaCreator)]!
+This repo only contains text data. You can download the corresponding audio for Mozilla's Common Voice Target Segments Corpus here [[1](https://commonvoice.mozilla.org/en/datasets)].
+
+The original release of `train.tsv`, `dev.tsv`, and `test.tsv` data splits for the corpus had a bug, and they're not very useful as-is. Thankfully, it's easy to generate better data splits using the `CorporaCreator` tool [[2](https://github.com/mozilla/CorporaCreator)]!
 
 This repo contains better data splits for this release of the Target Segments corpus. The Common Voice team already knows about the bug and will be re-packaging a release when they can (they've got a very full plate at the moment).
 
